@@ -1,7 +1,6 @@
 # Express-Mongo
     
-[]: # Language: markdown
-[]: # Path: README.md
+### Now Using EJS and MongoDB
 
 ### To Run This Project
     - Run the following command in your terminal:
@@ -15,6 +14,6 @@
         npm start
             or
         yarn start
-        
+
     - Dont forget to add the environment variables to your .env file.
     
