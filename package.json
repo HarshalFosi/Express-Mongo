@@ -15,7 +15,8 @@
   "homepage": "https://github.com/HarshalFosi/Express-Mongo#readme",
   "scripts": {
     "test": "node test.js",
-    "start": "node ."
+    "start": "node .",
+    "tailwind": "npx tailwindcss -i ./src/style.css -o ./output.css --watch"
   },
   "keywords": [
     "nodejs",
@@ -30,5 +31,8 @@
     "mongoose": "^6.4.0",
     "node-fetch": "2",
     "querystring": "^0.2.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
   }
 }
